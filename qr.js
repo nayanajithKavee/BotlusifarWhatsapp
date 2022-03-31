@@ -19,7 +19,7 @@ async function LUSIFAR () {
     conn.on('connecting', async () => {
         console.log(`${chalk.green.bold('BOT')}${chalk.blue.bold('Lusifar')}
 ${chalk.white.italic('LusifarString Kodu Alıcı')}
-${chalk.blue.italic('ℹ️  Connecting to Whatsapp... Please Wait.')}`);
+${chalk.blue.italic('ℹ️  Connecting to Whatsapp kaveesha bot💛👀👇... Please Wait.')}`);
     });
     
 
@@ -41,7 +41,7 @@ ${chalk.blue.italic('ℹ️  Connecting to Whatsapp... Please Wait.')}`);
         }
         else {
             await conn.sendMessage(conn.user.jid,st, MessageType.text)
-            await conn.sendMessage(conn.user.jid,'*Do Not Share This Code With Anyone!*', MessageType.text)
+            await conn.sendMessage(conn.user.jid,'* 👀Do Not Share This Code With Anyone👀👇 !*', MessageType.text)
             console.log(
                 chalk.blue.bold('If you are installing locale, you can start the bot with node bot.js')
             );
